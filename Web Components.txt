@@ -1,0 +1,19 @@
+﻿Web Components 
+
+
+Componentes da Web
+Componentes da Web são um conjunto diferente de tecnologias que permitem criar elementos personalizados reutilizáveis ​​- cuja funcionalidade é encapsulada fora do restante do seu código - e usá-los em seus aplicativos da Web.
+
+
+Conceito e uso
+Como desenvolvedores, todos sabemos que é uma boa ideia reutilizar o código o máximo possível. Tradicionalmente, isso não tem sido tão fácil com estruturas de marcação personalizadas - pense que às vezes você precisa escrever HTML complexo (e estilos e scripts associados) para renderizar controles de interface do usuário personalizados, e como usá-los várias vezes pode torná-lo A página fica confusa se você não é cuidadoso.
+
+
+O Web Components foi projetado para resolver esses problemas - consiste em três tecnologias principais que podem ser usadas juntas para criar elementos personalizados genéricos com recursos encapsulados que podem ser reutilizados em qualquer lugar sem se preocupar com conflitos de código.
+
+
+Custom Components: Um conjunto de APIs JavaScript que permitem definir elementos personalizados e seu comportamento, que podem ser usados ​​em interfaces de usuário conforme necessário.
+
+
+Shadow DOM: Um conjunto de APIs JavaScript para anexar uma árvore DOM "sombra" encapsulada a um elemento (renderizado separadamente do DOM do documento principal) e funções de controle relacionadas. Dessa forma, você mantém as características do elemento privadas, para que possa criar scripts e estilizá-lo sem se preocupar em entrar em conflito com o restante do documento.
+Modelos HTML: Os elementos <template> e <slot> permitem escrever modelos de marcação que não são exibidos na página renderizada. Eles podem ser reutilizados várias vezes como base para estruturas de elementos personalizados.
