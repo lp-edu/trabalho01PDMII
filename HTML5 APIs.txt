@@ -1,0 +1,21 @@
+﻿HTML5 APIs
+
+
+Existem outras tecnologias web em desenvolvimento relacionadas à especificação de sintaxe HTML5. Essas tecnologias ajudarão você a executar tarefas em navegadores da Web e dispositivos móveis compatíveis que não eram possíveis nas versões HTML anteriores.
+
+
+O que é uma API?
+Uma API (Application Programming Interface) é uma maneira de criar aplicativos usando componentes pré-construídos e não é exclusiva do desenvolvimento web ou mesmo de linguagens de script. Sites como Twitter, YouTube etc. fornecem APIs ao público para que designers e desenvolvedores possam integrar funcionalidades em seus próprios sites (ou para outros fins, como aplicativos móveis ou de desktop). Um dos principais objetivos de uma API é padronizar como certos mecanismos funcionam e simplificar outras tarefas complexas de programação. As APIs são muito importantes no mundo HTML5, e há muitas para explorar, incluindo arrastar e soltar, armazenamento na web, microdados, geolocalização e muito mais.
+
+
+Geolocalização
+A geolocalização é uma API que ajuda a identificar a localização geográfica de um navegador da web. Essas informações serão usadas para enviar dados relevantes com base em sua posição. O Firefox versão 3.5 foi um dos primeiros navegadores a usar geolocalização. Um exemplo em que a geolocalização é útil é vincular pesquisas na web a dados de mapas para ajudá-lo a encontrar restaurantes a uma curta distância do seu hotel. Os navegadores habilitados para geolocalização podem fornecer resultados locais com base em sua localização, em vez de inserir manualmente seu endereço.
+
+
+
+
+Web Workers 
+Web Workers é outra API que geralmente é incluída na família HTML5. Web Workers é uma estrutura para resolver problemas de desempenho do navegador. Quando você acessa aplicativos da Web avançados, como mapas ou aplicativos que geram tabelas e gráficos em tempo real, há vários cálculos com uso intenso do processador que podem diminuir o desempenho do aplicativo. Grande parte da desaceleração ocorre devido à competição entre a interação do usuário (clique, arraste, etc.) e a necessidade do aplicativo de acessar recursos (gráficos, dados, etc.).
+
+
+Web Workers são scripts executados em threads separados. Essa separação significa que processos como buscar dados de um banco de dados acontecem independentemente do comportamento do usuário, criando um ambiente mais integrado para os usuários. Os Web Workers estão nos estágios iniciais de desenvolvimento; no momento da redação deste artigo, o suporte ao navegador é relativamente mínimo.
